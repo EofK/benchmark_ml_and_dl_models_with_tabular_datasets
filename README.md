@@ -74,6 +74,8 @@ Install dependencies:
 ```bash
 pip install pytorch_tabular pytorch_widedeep scikit-learn pandas numpy
 ```
+### Note on TabNet
+TabNet was initially included in the model selection but was excluded after encountering a reproducible bug in the pytorch_tabular implementation (create_group_matrix() takes no arguments) that prevented it from running across the benchmark datasets. The alternative native pytorch_tabnet library was not used because it would have required a separate preprocessing pipeline incompatible with the benchmark's standardized methodology.
 
 ## Datasets
 
