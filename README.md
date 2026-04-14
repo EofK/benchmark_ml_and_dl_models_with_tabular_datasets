@@ -21,6 +21,11 @@ Models were evaluated on 182 publicly available tabular binary classification da
 - Neighborhood complexity measures (N1, N3, N4) are the strongest predictors of classification difficulty
 - Traditional ML models still outperform the best DL models on tabular data, but the gap narrows at mid-tier ML
 
+### Interactive Results
+[View the Interactive Deployment Score Dashboard](https://benchmarkmlanddlmodelswithtabulardatasets-yvxtna9ieqnlupj8pp2h.streamlit.app/)
+
+Adjust the priority between accuracy and throughput to dynamically rank 12 deep learning models based on comprehensive benchmarking across 182 tabular datasets.
+
 ## Repository Contents
 ├── notebooks/ 
 
